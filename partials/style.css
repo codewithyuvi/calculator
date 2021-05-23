@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 80vh;
+    width: 100vw;
+}
+
+#calculator_box{
+    border: 1px solid gray;
+}
+.cal_box{
+    display: flex;
+    flex-direction: column;
+}
+
+#dis_clr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clr{
+    margin-bottom: 0px!important;
+}
+
+.display_box{
+    padding: 10px 10px;
+    width: 286px;
+    height: 59px;
+    letter-spacing: 0.1em;
+    font-size: 1.5rem;
+    text-align: end;
+    outline: none;
+}
+
+.btn{
+    padding: 13px 40px;
+    margin: 2px 3px;
+    cursor:pointer;
+    border: none;
+    border-radius: 2px;
+    transition: 0.2s;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.btn:hover{
+    background-color: #e2e2e2;
+}
+
+.operator{
+    background-color: #dadce0;   
+}
+
+.solve{
+    color: white;
+    font-weight: bold;
+    background-color: #4285f4;
+}
+
+.solve:hover{
+    background-color: #1665e6;
+}
+
+.clr{
+    width: 115px;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(255, 65, 65);
+    height: 52px;
+}
+
+.clr:hover{
+    background-color: rgb(255, 0, 0);
+}
+
+.copyright{
+    margin-top: 82px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: black;
+    color:  white;
+}
+
+.copyright h6{
+    font-size: 0.8rem;
+}
+
+.copyright h3{
+    font-size: 1rem;
+}
